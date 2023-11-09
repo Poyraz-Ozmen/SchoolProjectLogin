@@ -1,0 +1,49 @@
+/* Apply styles to the body element
+body {
+    background-color: wheat;
+}
+
+.btn-danger{
+    margin-top: 5px;
+}
+
+/* Apply styles to images */
+/*
+.card-img-top {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    background-color: rgb(187, 233, 218;
+}
+*/
+
+/* Apply styles to user container */
+/*
+.user-container {
+    display: flex;
+    /* Use flex to arrange elements side by side */
+    /*
+    /* Vertically center the content */
+    /* padding: 10px; */
+    /* Add padding between elements if needed */
+    /* border: 1px solid #ccc; */
+    /* Add borders if needed */
+    /* margin: 5px; */
+    /* Add margin between user containers if needed */
+    /* flex: 1; */
+    /* This will make the user containers share available space equally */
+    /* width: 250px; */
+    /* Set the same width as .card-img-top */
+/*}*/
+
+ 
+.course-schedule-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-schedule {
+    background: white;
+    flex-grow: 1; /* This makes the course-schedule component take up all available vertical space */
+  }
